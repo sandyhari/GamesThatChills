@@ -12,7 +12,7 @@ let questions =
 let i = 1;
 btn.addEventListener("click",startMusic)
 function startMusic(){
-  myVar = setInterval(myFunction,7000);
+  myVar = setInterval(myFunction,9000);
   function myFunction(){
     txtbox.disabled  = true;
     quizContainer.innerText = questions[i];
